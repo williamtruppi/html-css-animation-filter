@@ -25,3 +25,16 @@
     transition-duration: 2.5s;
     opacity: 0;
 }
+
+/* esercizio 5 */
+
+.ex-5-square:hover {
+    transition-duration: 2s;
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transition-duration: 2s;
+    transform: scale(0.5);
+}
+
