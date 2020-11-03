@@ -11,3 +11,10 @@
     width: 100%;
     transition-duration: 3s;
 }
+
+/* esercizio tre */
+
+.ex-3-square:hover {
+    border-radius: 100%;
+    transition-duration: 3s;
+}
