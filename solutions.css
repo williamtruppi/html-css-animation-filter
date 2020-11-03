@@ -71,13 +71,13 @@
 /* esercizio 10 */
 
 .ex-10-icon {
-    animation-name: rotation;
+    animation-name: icon10-rotation;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-@keyframes rotation { 
+@keyframes icon10-rotation { 
     from { 
       transform: rotate(360deg); 
     } to { 
@@ -99,5 +99,43 @@
     } 
     75% { 
       transform: rotate(315deg); 
+    }
+}
+
+/* esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-name: btn12-rotation;
+}
+
+@keyframes btn12-rotation { 
+     0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-name: btn12-rotation-down;
+}
+
+@keyframes btn12-rotation-down { 
+     0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
     }
 }
