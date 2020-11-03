@@ -67,3 +67,20 @@
     transform: scale(1.5);
     transition-duration: 2s;
 }
+
+/* esercizio 10 */
+
+.ex-10-icon {
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
