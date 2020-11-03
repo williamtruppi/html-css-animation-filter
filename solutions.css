@@ -58,3 +58,12 @@
     border-radius: 20px;
     transition-duration: 2s;
 }
+
+/* esercizio 9 */
+
+.ex-9-img:hover {
+    filter: sepia(50%);
+    border-radius: 20px;
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
