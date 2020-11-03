@@ -43,3 +43,10 @@
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
+
+/* esercizio 7 */
+
+.ex-7-img:hover {
+    filter: grayscale(100%) sepia(50%);
+    transition-duration: 2s;
+}
