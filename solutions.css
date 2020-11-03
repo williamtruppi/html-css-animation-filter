@@ -50,3 +50,11 @@
     filter: grayscale(100%) sepia(50%);
     transition-duration: 2s;
 }
+
+/* esercizio 8 */
+
+.ex-8-img:hover {
+    filter: sepia(80%);
+    border-radius: 20px;
+    transition-duration: 2s;
+}
