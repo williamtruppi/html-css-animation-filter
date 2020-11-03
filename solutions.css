@@ -1,0 +1,13 @@
+/* esercizio uno */
+
+.ex-1-square:hover{
+    background-color: red;
+    transition-duration: 1s;
+}
+
+/* esercizio due */
+
+.ex-2-square:active {
+    width: 100%;
+    transition-duration: 3s;
+}
