@@ -18,3 +18,10 @@
     border-radius: 100%;
     transition-duration: 3s;
 }
+
+/* esercizio 4 */
+
+.ex-4-square:hover {
+    transition-duration: 2.5s;
+    opacity: 0;
+}
