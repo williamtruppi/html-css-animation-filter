@@ -78,9 +78,26 @@
 }
 
 @keyframes rotation { 
-        from { 
-            transform: rotate(0deg); 
-        } to { 
-            transform: rotate(360deg); 
-        }
+    from { 
+      transform: rotate(360deg); 
+    } to { 
+      transform: rotate(0deg); 
     }
+}
+
+/* esercizio 11 */
+
+.ex-11-icon:hover {
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation { 
+    0% { 
+      transform: rotate(0deg); 
+    } 
+    75% { 
+      transform: rotate(315deg); 
+    }
+}
